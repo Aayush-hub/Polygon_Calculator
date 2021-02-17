@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <style>
+    body {
+      /* background-image: url(static/images2.png); */
+      background-repeat: no-repeat;
+      background-size: 1500px 600px;
+      padding-top: 15em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    h2 {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      font-size:30px;
+    }
+  
+    form {
+      margin: 0 auto;
+    }
+  
+    #radius {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: large;
+    }
+
+    #radius:focus{
+      outline: none;
+    }
+  
+  label{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+  </style>
+
+<body style="background-image: url('https://media.giphy.com/media/pHy4Vkz8ZOzeg/giphy.gif');">
 
 <h2>Circle Calculator</h2>
 
 <form action="/submit/shape">
-  <label for="Enter radius">Enter Radius:</label><br>
+  <label for="Enter radius">Enter radius:</label><br>
   <input type="text" id="radius" name="radius"><br>
   
   <input type="submit" value="Submit">
 
 </form> 
-
-
 
 </body>
 </html>
