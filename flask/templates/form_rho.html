@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 <html>
-<body>
+
+  <style>
+    body {
+      /* background-image: url(static/images2.png); */
+      background-repeat: no-repeat;
+      background-size: 1400px 600px;
+      padding-top: 15em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    h2 {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      font-size:30px;
+    }
+  
+    form {
+      margin: 0 auto;
+    }
+  
+    #base {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: large;
+    }
+
+    #base:focus{
+      outline: none;
+    }
+    #height {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: large;
+    }
+
+    #height:focus{
+      outline: none;
+    }
+  
+  label{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+  </style>
+
+
+<body style="background-image: url('https://media.giphy.com/media/Yw8uipZ6HPNWo/giphy.gif');">
 
 <h2>Rhombus Calculator</h2>
 
 <form action="/submit/shape">
-  <label for="Enter Base">Base:</label><br>
+  <label for="Enter Base">Enter Base:</label><br>
   <input type="text" id="base" name="base"><br>
-  <label for="Enter Height">Height:</label><br>
+  <label for="Enter Height">Enter Height:</label><br>
   <input type="text" id="height" name="height"><br>
   <input type="submit" value="Submit">
 
 </form> 
-
-
 
 </body>
 </html>
