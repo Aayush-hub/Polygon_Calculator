@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <title>Polygon Calculator</title>
- </head>
-<body>
 
-<h2>Polygon Calculator</h2>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">;
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">;
+</head>
+<style>
 
-<form action="/submit/">
-  <label for="Enter Polygon Type">Enter Shape:</label><br>
-  <input type="text" id="shape" name="shape"><br>
-  
-  <input type="submit" value="Submit">
-</form> 
+  body {
+    /* background-image: url(static/html5.gif); */
+    background-repeat: no-repeat;
+    background-size: 1550px 800px;
+    padding-top: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  h2 {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+  }
 
+  form {
+    margin: 0 auto;
+  }
 
+  #shape {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: large;
+  }
+
+label{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+</style>
+
+<body style="background-image: url('https://media.giphy.com/media/aUTye2tUx1fz2/giphy.gif');">
+  <h2>Polygon Calculator</h2>
+  <form action="/submit/">
+
+    <label for="Enter-Polygon-Type">Shape:</label><br>
+
+    <input type="text" id="shape" name="shape"><br>
+
+    <input type="submit" value="Submit">
+  </form>
 </body>
+
 </html>
